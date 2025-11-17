@@ -12,7 +12,7 @@ export default function Landing() {
 
   useEffect(() => {
     // target values
-    const targets = { w: 325, t: 142, r: 57 };
+    const targets = { w: 300, t: 142, r: 57 };
     let w = 0, t = 0, r = 0;
     const duration = 1400; // ms
     const step = 30; // ms
@@ -174,7 +174,7 @@ export default function Landing() {
       <section className="px-6 md:px-16 py-10 bg-black/60 border-t border-gray-800">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold">Trusted by users around the world</h2>
-          <p className="text-gray-400 mt-2">Over <span className="text-blue-400 font-semibold">300+</span> wallets secured with real-time monitoring and recovery.</p>
+          <p className="text-gray-400 mt-2">Over <span className="text-blue-400 font-semibold">300k+</span> wallets secured with real-time monitoring and recovery.</p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
             {["Metamask Wallet Secured","Trust Wallet Protection Enabled","Phantom Wallet Recovery","Cross-Chain Wallet Audit","AI-Powered Risk Scan","24/7 Security Monitoring"].map((item,i)=> (
