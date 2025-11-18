@@ -6,7 +6,7 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="w-full fixed top-0 left-0 z-50 bg-black/80 backdrop-blur-xl border-b border-gray-800">
+    <header className=" w-full fixed top-0 left-0 z-50 bg-black/80 backdrop-blur-xl border-b border-gray-800">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
         {/* Logo */}
         <Link to="/" className="text-2xl font-bold text-blue-400">
@@ -17,7 +17,7 @@ export default function Header() {
         <nav className="hidden md:flex items-center gap-10 text-gray-300">
           <Link to="/" className="hover:text-white transition">Home</Link>
           <Link to="/features" className="hover:text-white transition">Features</Link>
-          <Link to="/security" className="hover:text-white transition">Security</Link>
+          <Link to="/scan" className="hover:text-white transition">Security</Link>
           <Link to="/faq" className="hover:text-white transition">FAQ</Link>
 
           {/* Connect Wallet button now navigates to /scan */}
