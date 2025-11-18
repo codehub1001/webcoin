@@ -10,7 +10,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
         {/* Logo */}
         <Link to="/" className="text-2xl font-bold text-blue-400">
-          WebCoin
+          Crypto portal
         </Link>
 
         {/* Desktop Nav */}
