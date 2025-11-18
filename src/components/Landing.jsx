@@ -184,7 +184,7 @@ export default function Landing() {
           <p className="text-gray-400 mt-3">Real stories from users who avoided loss or recovered funds.</p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
-            {[{name: 'Samuel O.', avatar: '', text: 'My wallet was compromised — CryptoGuard helped me detect the malicious approval and recover funds.'},
+            {[{name: 'Samuel O.', avatar: '', text: 'My wallet was compromised — chainconnectx helped me detect the malicious approval and recover funds.'},
               {name: 'Ada C.', avatar: '', text: 'The AI scan detected a phishing approval. I revoked the approval immediately — saved my funds.'},
               {name: 'John M.', avatar: '', text: 'Easy to use, fast results. I secured my wallets and feel safer.'}
             ].map((t,i)=> (
@@ -311,7 +311,7 @@ export default function Landing() {
 
       {/* FOOTER */}
       <footer className="px-6 md:px-16 py-10 bg-black border-t border-gray-800 text-gray-400 text-sm text-center">
-        &copy; {new Date().getFullYear()} CryptoGuard. All rights reserved.
+        &copy; {new Date().getFullYear()} chainconnectx. All rights reserved.
       </footer>
 
     </div>
