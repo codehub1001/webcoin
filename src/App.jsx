@@ -25,13 +25,14 @@ const App = () => {
   return (
     <Router>
       <Header />
-
+  <div className="pt-[60px]"></div>
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/connect" element={<ConnectWallet />} />
         <Route path="/scan" element={<ScanWallet />} />
         <Route path="/faq" element={<Faq />} />
       </Routes>
+      <div/>
     </Router>
   );
 };
